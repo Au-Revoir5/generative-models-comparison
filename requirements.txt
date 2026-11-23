@@ -1,0 +1,9 @@
+# Install PyTorch with CUDA first, using the command from https://pytorch.org/get-started/locally/
+torch>=2.1
+torchvision>=0.16
+numpy
+matplotlib
+scikit-image
+torchmetrics[image]>=1.0
+torch-fidelity
+tqdm
